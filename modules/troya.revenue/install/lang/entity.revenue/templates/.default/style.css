@@ -1,0 +1,168 @@
+.element-revenues{
+    background: #fff;
+    border-radius: var(--main-grid-top-border-radius);
+    padding: 6px 20px;
+    max-height: 580px;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.element-revenues table{
+    border-collapse: collapse;
+}
+
+.element-revenues tr{
+    position: relative;
+}
+
+.element-revenues th{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 70px;
+    height: 45px;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-transition: background-color .3s cubic-bezier(.000,.465,.750,.750);
+    -o-transition: background-color .3s cubic-bezier(.000,.465,.750,.750);
+    transition: background-color .3s cubic-bezier(.000,.465,.750,.750);
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    padding-right: 21px;
+    padding: 9px 13px;
+    max-width: 100%;
+    color: #535c69;
+    text-align: left;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: var(--ui-font-family-primary,var(--ui-font-family-helvetica));
+}
+
+.element-revenues td:first-child{
+    border-left: 1px #e9e7e7 solid;
+}
+
+.element-revenues td:last-child{
+    border-right: 1px #e9e7e7 solid;
+}
+
+.element-revenues td{
+    border-top: 1px #f8f8f8 solid;
+    padding: 9px 13px;
+}
+
+.element-revenues td[data-type=name] .ui-tag-selector-tag--has-avatar .ui-tag-selector-tag-avatar{
+    display: none;
+}
+
+.element-revenues td[data-type=name] .ui-tag-selector-tag--has-avatar .ui-tag-selector-tag-title{
+    padding: 0px 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    white-space: pre-line;
+    line-height: 16px;
+}
+
+.element-revenues td[data-type=name] .ui-tag-selector-outer-container{
+    min-width: 250px;
+}
+
+.element-revenues tr:not([data-type='1']) .ui-tag-selector-outer-container{
+    display: none;
+}
+
+.element-revenues tr[data-type='1'] td{
+    border-top: 1px #e9e7e7 solid;
+}
+
+.element-revenues tr:last-child td{
+    border-bottom: 1px #e9e7e7 solid;
+}
+
+.element-revenues-buttons [hidden]{
+    width: 0;
+    height: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.element-revenues .product-select{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.element-revenues .ui-alert{
+    overflow: hidden;
+    padding: 3px 6px;
+}
+
+.element-revenues .ui-alert-close-btn{
+    top: 0px;
+    right: 0px;
+}
+
+.element-revenues .ui-tag-selector-items{
+    flex-wrap: nowrap;
+}
+
+.element-revenues .ui-tag-selector-items .ui-tag-selector-item{
+    height: initial;
+    min-height: 29px;
+}
+
+.element-revenues tr td{
+    transition-duration: 0.3s;
+}
+
+.element-revenues tr.hide td{
+    width: 0;
+    height: 0;
+    padding: 0;
+    font-size: 0;
+    display: block;
+    overflow: hidden;
+    border: none!important;
+}
+
+.element-revenues tr.hide .ui-btn{
+    display: none;
+}
+
+.element-revenues tr[data-type='1'] .ui-btn-icon-remove{
+    position: absolute;
+    left: 3px;
+    z-index: 11;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.element-revenues tr:not([data-type='1']) .ui-btn-icon-remove{
+    display: none;
+}
+
+.element-revenues .ui-tag-selector-add-button-caption{
+    font-size: 0;
+}
+
+.element-revenues .ui-tag-selector-add-button-caption:hover{
+    border: none;
+}
+
+.element-revenues-settings .category:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.element-revenues-settings .category .name{
+    color: #a3a9b1;
+    font: 14px/16px var(--ui-font-family-primary,var(--ui-font-family-helvetica));
+    margin-bottom: 5px;
+}
+

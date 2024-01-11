@@ -1,0 +1,7 @@
+.value-push .ui-tag-selector-outer-container{
+    width: calc(100% - 8px);
+}
+
+.ui-ctl-danger .ui-tag-selector-outer-container{
+    border-color: var(--ui-field-color-danger);
+}

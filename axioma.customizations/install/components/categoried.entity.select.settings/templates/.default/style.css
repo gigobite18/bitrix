@@ -1,0 +1,86 @@
+.ui-btn-icon-add.delete:after{
+    transform: rotate(45deg) !important;
+}
+
+.ui-btn-icon-add.delete{
+    float: right;
+}
+
+.categoried-entity-configuration .list{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.categoried-entity-configuration .list{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.categoried-entity-configuration .list td,
+.categoried-entity-configuration .list th{
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: system-ui;
+}
+
+.categoried-entity-configuration .list th{
+    background: #eef2f4;
+    border: 1px solid #e7e6e5;
+    font-weight: 400;
+}
+
+.categoried-entity-configuration .list td select{
+    outline: none;
+    height: 31px;
+    font-family: system-ui;
+    width: 275px;
+    border: 1px solid #eee;
+}
+
+.categoried-entity-configuration .row{
+    position: relative;
+}
+
+.categoried-entity-configuration .error-messages .message{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    color: #b93939;
+    z-index: 0;
+    display: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    background: #fde1e1;
+    width: calc(100% - 3px);
+    text-align: center;
+}
+
+.categoried-entity-configuration .error-messages .item{
+    display: none;
+}
+
+.categoried-entity-configuration .in_load .loader{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    background: #eef2f499;
+}
+
+.categoried-entity-configuration .in_load .loader img{
+    max-height: 100%;
+    margin: auto;
+}
+
+.categoried-entity-configuration .row.inner_prop-empty .inner-prop-empty{
+    display: block;
+}
+
+.categoried-entity-configuration .row.inner_prop-empty td{
+    padding-top: 23px;
+}

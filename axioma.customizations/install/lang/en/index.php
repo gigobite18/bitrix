@@ -1,0 +1,7 @@
+<?php
+$MESS['MODULE_AXIOMA_CUSTOMIZATIONS_DESCRIPTION']='crm';
+$MESS['MODULE_AXIOMA_CUSTOMIZATIONS_NAME']='Axioma Castomizations';
+$MESS['MODULE_AXIOMA_CUSTOMIZATIONS_PARTNER_NAME']= basename(dirname(dirname(dirname(__DIR__))));
+$MESS['MODULE_AXIOMA_CUSTOMIZATIONS_PARTNER_URI']='https://forbes.ru/';
+$MESS['MODULE_INSTALL']='Module installing';
+$MESS['MODULE_UNINSTALL']='Module uninstalling';

@@ -1,0 +1,75 @@
+.ui-form-section.ui-form.ui-ear-container{
+    padding: 0 20px 0px;
+}
+
+.ui-form-section .config-table{
+    border-collapse: collapse;
+}
+
+.ui-form-section .config-table thead{
+    position: relative;
+}
+
+.ui-form-section .config-table thead:after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 40px);
+    left: -20px;
+    top: 0;
+    height: 100%;
+    background: #b4bcc545;
+}
+
+.ui-form-section .config-table thead .ui-ctl-label-text{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.ui-form-section .config-table tr{
+    display: table-row;
+    position: relative;
+}
+
+.ui-form-section .config-table tbody tr:not(:last-child):after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #ededed;
+}
+
+
+.ui-form-section .config-table td{
+    padding: 8px 11px;
+}
+
+.ui-form-section .config-table td>*{
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ui-form-section .config-table td .ui-form-link{
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.ui-form-section .config-table tbody td a{
+    font-weight: 500;
+}
+
+.ui-form-section .config-table tr .ui-form-label{
+    margin-bottom: 0;
+}
+
+.ui-form-section .config-table tr .popup-window-close-icon{
+    left: -20px;
+    top: 2px;
+    opacity: 1;
+    bottom: 0;
+    margin: auto 0;
+}

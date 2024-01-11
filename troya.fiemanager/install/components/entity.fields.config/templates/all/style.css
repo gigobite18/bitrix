@@ -1,0 +1,39 @@
+.table-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: #eee;
+}
+
+.table-content .crm-type-presets-category-list{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #eee;
+    padding: 2px 0px;
+}
+
+.table-content .crm-type-preset {
+    width: calc(100% - 10px);
+    border-radius: 0;
+    margin: 2px 4px;
+}
+
+
+.table-content .crm-type-preset-text {
+    width: 100%;
+    max-width: 79%;
+}
+
+.types-list,
+.config-table{
+    width: 100%;
+    padding: 4px 4px 4px 0px;
+}
+
+.types-list .ui-form-section {
+    background-color: #f8f9fa;
+    margin-bottom: 0;
+    border-radius: 0;
+}

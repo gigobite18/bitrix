@@ -1,0 +1,17 @@
+.ui-form.ui-form-row>.ui-form-label{
+    width: 30%;
+}
+
+.ui-form>.ui-form-row>.ui-form-content{
+    width: 65%;
+}
+
+.filter-list .filter-list-item{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.filter-list .filter-list-item>.ui-ctl{
+    width: 33%;
+    margin-top: 0px;
+}

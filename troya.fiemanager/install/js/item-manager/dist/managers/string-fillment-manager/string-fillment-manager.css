@@ -1,0 +1,13 @@
+.multiple-container .items .ui-ctl{
+    margin-left: 0px;
+}
+
+.lazy-field{
+    transition-duration: 0.3s;
+}
+.lazy-field.hide{
+    max-height: 0px;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+}

@@ -1,0 +1,136 @@
+.ui-form-section.ui-form.ui-ear-container{
+    padding: 0 20px 0px;
+}
+
+.ui-form-section .config-table{
+    border-collapse: collapse;
+}
+
+.ui-form-section .config-table thead{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.ui-form-section .config-table thead:after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 40px);
+    left: -20px;
+    top: 0;
+    height: 100%;
+    background: #b4bcc545;
+}
+
+.ui-form-section .config-table thead .ui-ctl-label-text{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    min-width: 165px;
+}
+
+.ui-form-section .config-table tr{
+    display: table-row;
+    position: relative;
+}
+
+.ui-form-section .config-table tbody tr:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #ededed;
+}
+
+
+.ui-form-section .config-table td{
+    padding: 8px 11px;
+}
+
+.ui-form-section .config-table td>*{
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ui-form-section .config-table td .ui-form-link{
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.ui-form-section .config-table tbody td a{
+    font-weight: 500;
+}
+
+.ui-form-section .config-table tr .ui-form-label{
+    margin-bottom: 0;
+}
+
+.ui-form-section .config-table tr .popup-window-close-icon{
+    left: -20px;
+    top: 2px;
+    opacity: 1;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.types-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+}
+
+.ears-upprs-container{
+    overflow: hidden;
+    max-width: 100%;
+    flex-grow: 1;
+    height: 100%;
+    background: #f8f9fa;
+}
+
+.ears-upprs-container:not(.active){
+    max-width: 0%;
+}
+
+.types-list .ui-form-section {
+    background-color: #f8f9fa;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.crm-type-preset{
+    border: none;
+    transition-duration: 0.3s;
+    background: rgb(230 233 235);
+}
+
+.crm-type-preset.active{
+    background: rgb(248 249 250 / 98%);
+}
+
+.table-content{
+    position: relative;
+}
+
+.ears-upprs-container:not(.active) .ui-form-section-button-container{
+    display: none;
+}
+
+.ui-form-section-button-container{
+    position: absolute;
+    bottom: -12px;
+    width: 100%;
+    left: 0;
+}
+
+.ui-ears-wrapper{
+    width: 100%;
+}
+
+.table-content .crm-type-presets-category-list{
+    width: calc(30% - 10px);
+}
